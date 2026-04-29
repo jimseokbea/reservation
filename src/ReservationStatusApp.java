@@ -9,7 +9,7 @@ public class ReservationStatusApp {
         if (status.equals("PENDING")){
             status = "APPROVED";
             System.out.println("예약이 승인되었습니다");
-        }else if (status.equals("CANCELND")){
+        }else if (status.equals("CANCELED")){
             System.out.println("취소된 예약은 승인할수 없습니다.");
         }else if (status.equals("APPROVED")){
             System.out.println("이미 승인된 예약은 승인 할수 없습니다");
